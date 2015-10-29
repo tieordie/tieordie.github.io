@@ -99,7 +99,7 @@
 						{ attr: "quantity", label: "Qty" },
 						{ view: "increment", label: false },
 						{ attr: "total", label: "SubTotal", view: 'currency' },
-						{ view: "remove", text: "Remove", label: false }
+						{ view: "remove", text: "Remove", label: true }
 					],
 
 					excludeFromCheckout	: ['thumb'],
